@@ -1,0 +1,8 @@
+Comands
+
+go mod init github.com/lourencodevopspython/delivery-app-full-cicle-simulator
+go run main.go
+
+
+kafka-console-consumer --bootstrap-server=localhost:9092 --topic=route.new-position --group=terminal
+kafka-console-producer --bootstrap-server=localhost:9092 --topic=route.new-direction 
